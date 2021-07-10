@@ -42,16 +42,16 @@ int main()
     }
     else
     {
-      int id,password;
+      int cusId,cusPassword;
       printf("You have Selected Card Mode");
       printf("\nEnter the Card Id : ");
-      scanf("%d",&id);
+      scanf("%d",&cusId);
       printf("\nEnter the Password : ");
-      scanf("%d",&password);
-      int x = authenticate(id,password);
+      scanf("%d",&cusPassword);
+      int x = authenticate(cusId,cusPassword);
       if (x)
       {
-        int y = cardIndex(id);
+        int y = cardIndex(cusId);
         card(prod,y);
       }
     }

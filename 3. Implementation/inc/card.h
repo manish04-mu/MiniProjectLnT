@@ -8,8 +8,8 @@ int balance[5] = {100,100,100,100,100};
 
 int authenticate(int x,int y)
 {
-    int p_word;
-    for (int i=0;i<10;i++)
+    int p_word=0;
+    for (int i=0;i<5;i++)
     {
         if (x==id[i])
         {
@@ -31,7 +31,7 @@ int authenticate(int x,int y)
 int cardIndex(int x)
 {
     int i;
-    for (i=0;i<10;i++)
+    for (i=0;i<5;i++)
     {
         if (x==id[i])
         {

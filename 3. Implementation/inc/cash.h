@@ -3,15 +3,13 @@
 #define CASH_H
 #define N 10
 int denomination[7] = {500,200,100,50,20,10,5};
-int deno_count[7] = {100,100,100,100,100,100,100,100};
+int deno_count[7] = {100,100,100,100,100,100,100};
 int cash(int x,int y)
-
 {
-  int denos[10] = {0};
+  int denos[10] = {0,0,0,0,0,0,0,0,0,0};
   int prod_val= price[x-1];
   int balance = y-prod_val;
-  int j=0;
-  //int i=0;
+  //int j=0;
   if (item_count[x-1]>0)
   {
     if (balance<0)
@@ -24,7 +22,7 @@ int cash(int x,int y)
     }
     else
     {
-      int i=0;  
+      int i=0,j=0;  
       while(balance)
       {  
         while(i<7)
@@ -60,11 +58,11 @@ int cash(int x,int y)
       if (balance==0)
       {
         printf("\n%s is dispensed",food_item[x-1]);
-        for (int i=0;i<10;i++)
+        for (int _=0;_<10;_++)
         {
-          if(denos[i]!=0)
+          if(denos[_]!=0)
           {
-            printf("\nRs. %d dispensed.",denos[i]);
+            printf("\nRs. %d dispensed.",denos[_]);
           }
         }
       }
@@ -79,7 +77,7 @@ int cash(int x,int y)
 
 int deno(int d)
 {
-  for (int i=0;i<8;i++)
+  for (int i=0;i<7;i++)
   {
     if (denomination[i]==d)
     {
