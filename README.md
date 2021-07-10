@@ -1,2 +1,3 @@
 # MiniProjectLnT
-Mini Project for STEPin
+*Mini Project for STEPin
+
