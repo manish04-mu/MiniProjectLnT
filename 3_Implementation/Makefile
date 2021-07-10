@@ -2,7 +2,7 @@ SRC = vendingmachine.c
 INC = inc
 
 vendingmachine.exe : $(SRC)
-	gcc $^ -o $@
+	gcc $^ -I$(INC) -o $@
 
 run : vendingmachine.exe
 	./vendingmachine.exe
