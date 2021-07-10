@@ -8,5 +8,5 @@ run : vendingmachine.exe
 	./vendingmachine.exe
 
 clean:
-	del vendingmachine.exe
+	del *.exe
 
