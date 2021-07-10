@@ -1,6 +1,12 @@
-vendingmachine:
-	gcc main.c -o vendingmachine
+SRC = vendingmachine.c
+INC = inc
+
+vendingmachine.exe : $(SRC)
+	gcc $^ -I$(INC) -o $@
+
+run : vendingmachine.exe
+	./vendingmachine.exe
 
 clean:
-	rm *.o vendingmachine
+	del vendingmachine.exe
 
