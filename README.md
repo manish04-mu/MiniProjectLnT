@@ -1,5 +1,5 @@
 # MiniProjectLnT
-*Mini Project for STEPin
+-Mini Project for STEPin
 
 https://www.code-inspector.com/project/24906/score/svg
 
