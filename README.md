@@ -12,4 +12,4 @@ https://www.code-inspector.com/project/24906/score/svg
 https://github.com/mainsh04-mu/MiniProjectLnT/actions/workflows/c-cpp.yml
 
 
-![Build](https://github.com/mainsh04-mu/MiniProjectLnT/actions/workflows/c-cpp.yml/badge.svg)
+![c-cpp Actions Status](https://github.com/mainsh04-mu/MiniProjectLnT/actions/workflows/c-cpp.yml/badge.svg)
