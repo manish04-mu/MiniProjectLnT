@@ -4,6 +4,7 @@
 char food_item[N][20] = {"Frooti","Fanta","ColaCola","MountainDew","Nachos","Lays","Sandwich","HidenSeek","Kitkat","DairyMilk"};
 int price[N] = {10,35,45,40,45,35,50,20,35,40};
 int item_count[10] = {2,10,5,10,10,0,10,0,10,10};
+
 void item_display()
 {
     printf("\n1-->%s      (Rs. %d)\n2-->%s       (Rs. %d)\n3-->%s    (Rs. %d)\n4-->%s (Rs. %d)\n5-->%s      (Rs. %d)\n",food_item[0],price[0],food_item[1],price[1],food_item[2],price[2],food_item[3],price[3],food_item[4],price[4]);
