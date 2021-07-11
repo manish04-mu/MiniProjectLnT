@@ -7,7 +7,7 @@
  have described optimistic reviews.
 4. These machines enable businesses to expand to serve customers 24/7 which is a great asset for  both the businessman and the customer. 
  
- ## SWOT Analysis
+## SWOT Analysis
  ![SWOT ANALYSIS](https://github.com/manish04-mu/MiniProjectLnT/blob/main/1_Requirements/swot.png)
 
 # 4W&#39;s and 1&#39;H
