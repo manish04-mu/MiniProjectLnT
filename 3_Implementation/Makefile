@@ -1,8 +1,8 @@
 SRC = vendingmachine.c
-INC = INC
+INC = inc
 
 TEST_SRC = test_vendingmachine.c unity/unity.c
-TEST_INC = unity/unity.h INC/item.h INC/cash.h INC/card.h INC/owner.h
+TEST_INC = unity/unity.h inc/item.h inc/cash.h inc/card.h inc/owner.h
 
 ifdef OS
    RM = del /q
