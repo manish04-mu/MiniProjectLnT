@@ -3,7 +3,7 @@
 # Vending Machine
 ![VM](https://github.com/manish04-mu/MiniProjectLnT/blob/main/1_Requirements/VendingMachine.jpg)
 
-##Code Quality
+## Code Quality
 | Build                | Code Quality | Unity | Git Inspector | Code Coverage |
 | -------------------- | ------------ | ------| ------------- | ------------- |
 |[![Build Status](https://github.com/mainsh04-mu/MiniProjectLnT/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/mainsh04-mu/MiniProjectLnT/actions/workflows/cppcheck.yml)|[![Codacy Badge](https://api.codacy.com/project/badge/Grade/9a09ea0296474c01b3ad9a8cb54d4379)](https://app.codacy.com/gh/manish04-mu/MiniProjectLnT?utm_source=github.com&utm_medium=referral&utm_content=manish04-mu/MiniProjectLnT&utm_campaign=Badge_Grade_Settings) <br> [![Code Quality - Static Code - Cppcheck](https://github.com/manish04-mu/MiniProjectLnT/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/manish04-mu/MiniProjectLnT/actions/workflows/cppcheck.yml)||[![Contribution Check - Git Inspector](https://github.com/manish04-mu/MiniProjectLnT/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/manish04-mu/MiniProjectLnT/actions/workflows/gitinspector.yml) | [![CodeCoverage](https://github.com/manish04-mu/MiniProjectLnT/actions/workflows/gcov.yml/badge.svg)](https://github.com/manish04-mu/MiniProjectLnT/actions/workflows/gcov.yml)
@@ -27,7 +27,7 @@ SF Id. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Case
 * Unit tests with Cunit
 * Static code analysis using cppcheck
 
-#Features
+# Features
 | Feature Id | Feature |
 | -----------|---------|
 |F_1| To select the Product |
