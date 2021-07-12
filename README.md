@@ -1,8 +1,10 @@
 # MiniProjectLnT
--Mini Project for STEPin
+# Vending Machine
 
+# Vending Machine
+![VM](https://github.com/manish04-mu/MiniProjectLnT/blob/main/6_Image%20and%20Video/VendingMAchine.jpeg)
 
-
+##Code Quality
 | Build                | Code Quality | Unity | Git Inspector | Code Coverage |
 | -------------------- | ------------ | ------| ------------- | ------------- |
 |[![Build Status](https://github.com/mainsh04-mu/MiniProjectLnT/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/mainsh04-mu/MiniProjectLnT/actions/workflows/cppcheck.yml)|[![Codacy Badge](https://api.codacy.com/project/badge/Grade/9a09ea0296474c01b3ad9a8cb54d4379)](https://app.codacy.com/gh/manish04-mu/MiniProjectLnT?utm_source=github.com&utm_medium=referral&utm_content=manish04-mu/MiniProjectLnT&utm_campaign=Badge_Grade_Settings) <br> [![Code Quality - Static Code - Cppcheck](https://github.com/manish04-mu/MiniProjectLnT/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/manish04-mu/MiniProjectLnT/actions/workflows/cppcheck.yml)||[![Contribution Check - Git Inspector](https://github.com/manish04-mu/MiniProjectLnT/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/manish04-mu/MiniProjectLnT/actions/workflows/gitinspector.yml) | [![CodeCoverage](https://github.com/manish04-mu/MiniProjectLnT/actions/workflows/gcov.yml/badge.svg)](https://github.com/manish04-mu/MiniProjectLnT/actions/workflows/gcov.yml)
@@ -15,13 +17,18 @@ Folder             | Description
 `3_Implementation` | Codes and documentations
 `4_Test_plan`      | Documents with test plans and procedures
 
-
 ## Contributors List and Summary
 
 SF Id. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
 -------|---------|----------------|----------------|---------------|-------------|--------------
 `302942` | Manish Kumar  |  2|     |  | 4|4|     
 
+## GitHub Actions
+* Build using Make for CI
+* Unit tests with Cunit
+* Static code analysis using cppcheck
+
+#Features
 | Feature Id | Feature |
 | -----------|---------|
 |F_1| To select the Product |
