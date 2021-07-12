@@ -10,10 +10,10 @@
  */
 #include <stdio.h>
 #include <string.h>
-#include "inc\item.h"
-#include "inc\cash.h"
-#include "inc\card.h"
-#include "inc\owner.h"
+#include "inc/item.h"
+#include "inc/cash.h"
+#include "inc/card.h"
+#include "inc/owner.h"
 
 int main()
 {
