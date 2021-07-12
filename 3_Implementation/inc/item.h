@@ -1,3 +1,5 @@
+#include <stdio.h>
+#include <string.h>
 #ifndef __ITEM_H
 #define __ITEM_H
 #define N 10

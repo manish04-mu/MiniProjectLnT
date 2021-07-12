@@ -1,4 +1,6 @@
 #include "item.h"
+#include <stdio.h>
+#include <string.h>
 #ifndef CASH_H
 #define CASH_H
 #define N 10
