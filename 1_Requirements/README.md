@@ -1,9 +1,9 @@
 # Reqiurements
 ## INTRODUCTION
-1. A vending machine is an automated machine which is intended to provide the users with a diverse range of products. 
-2. A vending machine dispenses a product to the users based on the amount of money inserted and selection of the product.
-3. Many businesses which have opted to use vending machines as an extended business opportunity and have described optimistic reviews.
-4. These machines enable businesses to expand to serve customers 24/7 which is a great asset for  both the businessman and the customer. 
+1.	A vending machine is an automated machine which is intended to provide the users with a diverse range of products. 
+2.	A vending machine dispenses a product to the users based on the amount of money inserted and selection of the product.
+3.	Many businesses which have opted to use vending machines as an extended business opportunity and have described optimistic reviews.
+4.	These machines enable businesses to expand to serve customers 24/7 which is a great asset for  both the businessman and the customer. 
 ## RESEARCH
 During the 1850s and 60s, the first, fully-automatic vending machine was introduced which sold stamps and writing paper. 
 By the 1880s, coin-operated vending machines were introduced in London and Percival Everitt invented a machine that dispensed envelopes, postcards and notepapers.
@@ -34,19 +34,19 @@ Annual sales total more than $60 billion. The Indian vending machine market is e
 
 # 4W&#39;s and 1&#39;H
 
-### Who:
+### Who
 * Every Vendor who wants to work 24/7 without much of Manual Labour. 
 
-### What:
+### What
 * Automated Machine which is intended to provide the users with a diverse range of products.
  
-### Where:
+### Where
 * Anywhere where there is power supply and space.
 
-### When:
+### When
 * Vending Machine was found in mid 1800s. Currently it is booming in India. 
 
-### How:
+### How
 * User selects the desired product and then make the payment using either cash or card mode and then the product is dispensed.
 
 # DETAIL REQUIREMENTS
