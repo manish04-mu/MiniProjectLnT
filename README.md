@@ -1,8 +1,7 @@
 # MiniProjectLnT
-# Vending Machine
 
 # Vending Machine
-![VM](https://github.com/manish04-mu/MiniProjectLnT/blob/main/6_Image%20and%20Video/VendingMAchine.jpeg)
+![VM](https://github.com/manish04-mu/MiniProjectLnT/blob/main/1_Requirements/VendingMachine.jpg)
 
 ##Code Quality
 | Build                | Code Quality | Unity | Git Inspector | Code Coverage |
