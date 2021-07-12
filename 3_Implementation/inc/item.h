@@ -3,6 +3,7 @@
 #ifndef __ITEM_H
 #define __ITEM_H
 #define N 10
+
 char food_item[N][20] = {"Frooti","Fanta","ColaCola","MountainDew","Nachos","Lays","Sandwich","HidenSeek","Kitkat","DairyMilk"};
 int price[N] = {10,35,45,40,45,35,50,20,35,40};
 int item_count[10] = {2,10,5,10,10,0,10,0,10,10};
