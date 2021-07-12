@@ -24,21 +24,21 @@ SF Id. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Case
 
 ## GitHub Actions
 * Build using Make for CI
+* Code Quality using cppcheck
+* Code Coverage
+* Contribution Check - Git Inspector
 * Unit tests with Cunit
-* Static code analysis using cppcheck
+
+## Integrated Tools to Github
+*  [CodeInspector](https://frontend.code-inspector.com/home)
+*  [Codacy](https://www.codacy.com/)
 
 ## Features
 | Feature Id | Feature |
 | -----------|---------|
-|F_1| To select the Product |
-|F_2| To pay using Cash |
-|F_3| Tp Pay using Card |
-
-
-## Challenges Faced and How Was It Overcome
-| No. | Challenge | Solution
-|-----|-----------|--------
-|1. | Accessing the text files which was in different directory | Given full extension while opening the file
-|2. | Gathering the database | Scanned across almost 10-15 offical websites  |
+|F1| To select the Product |
+|F2| To pay using Cash Mode|
+|F3| To Pay using Card Mode |
+|F4| To give Admin Access to update name, price of the product|
 
 
