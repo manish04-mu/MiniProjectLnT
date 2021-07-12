@@ -3,7 +3,10 @@
 #include <stdio.h>
 #include "item.h"
 #include <string.h>
-
+/**
+ * @brief Update the name of the product
+ * 
+ */
 void updateName()
 {
     int i;
@@ -24,6 +27,10 @@ void updateName()
     printf("Product Name is changed to %s.",food_item[i-1]);
 }
 
+/**
+ * @brief Update the price of the product
+ * 
+ */
 void updatePrice()
 {
     int i,x;;
@@ -36,6 +43,10 @@ void updatePrice()
     printf("The Price of %s is updated to %d",food_item[i-1],price[i-1]);
 }
 
+/**
+ * @brief Update the quantity of the product
+ * 
+ */
 void updateQuantity()
 {
     int i,x;
@@ -47,6 +58,10 @@ void updateQuantity()
     printf("The Quantity of %s is increased to %d",food_item[i-1],item_count[i-1]);
 }
 
+/**
+ * @brief Display the Menu for the Admin User
+ * 
+ */
 void displayMenu()
 {
     printf("\n\nPress 1 to view the Menu");
@@ -78,5 +93,4 @@ void displayMenu()
         break;
     }
 }
-
 #endif

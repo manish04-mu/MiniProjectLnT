@@ -1,4 +1,13 @@
-
+/**
+ * @file vendingmachine.c
+ * @author Manish Kumar (you@domain.com)
+ * @brief User Interface
+ * @version 0.1
+ * @date 2021-07-12
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
 #include <stdio.h>
 #include <string.h>
 #include "inc\item.h"

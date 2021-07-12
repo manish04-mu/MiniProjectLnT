@@ -5,7 +5,13 @@
 int id[5] = {2478,5698,3256,7458,1234};
 int password[5]= {2654,8569,5894,4521,8961};
 int balance[5] = {100,100,100,100,100};
-
+/**
+ * @brief Used to authenticate the ID and Password to carryout the Card Transaction
+ * 
+ * @param x ID of the Card
+ * @param y Password of the Card
+ * @return int 
+ */
 int authenticate(int x,int y)
 {
     int p_word=0;
@@ -27,7 +33,12 @@ int authenticate(int x,int y)
         return -1;
     }
 }
-
+/**
+ * @brief Used to find the User ID stored
+ * 
+ * @param x Card ID
+ * @return int 
+ */
 int cardIndex(int x)
 {
     int i;
@@ -41,6 +52,13 @@ int cardIndex(int x)
     return i;
 }
 
+/**
+ * @brief To carry out the card Transaction
+ * 
+ * @param p Product Id/No.
+ * @param y User ID
+ * @return int 
+ */
 int card(int p,int y)
 {
     if (balance[y]>price[p-1] && item_count[p-1]>0)

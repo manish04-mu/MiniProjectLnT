@@ -4,6 +4,13 @@
 #define N 10
 int denomination[7] = {500,200,100,50,20,10,5};
 int deno_count[7] = {100,100,100,100,100,100,100};
+/**
+ * @brief To carry out the Cash Transaction
+ * 
+ * @param x Product ID/No.
+ * @param y Total Entered Amount
+ * @return int 
+ */
 int cash(int x,int y)
 {
   int denos[10] = {0,0,0,0,0,0,0,0,0,0};
@@ -75,6 +82,12 @@ int cash(int x,int y)
   }
 }
 
+/**
+ * @brief To verify whether the inserted note is valid or not
+ * 
+ * @param d Note Value/Money
+ * @return int 
+ */
 int deno(int d)
 {
   for (int i=0;i<7;i++)
@@ -86,10 +99,4 @@ int deno(int d)
   }
   return 0;
 }
-
-
-
-
-
-
 #endif
