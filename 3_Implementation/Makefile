@@ -29,3 +29,7 @@ test: $(TEST_SRC)
 
 clean:
 	del *.$(EXEC)
+	
+coverageCheck: vm
+	g++ -fprofile-arcs -ftest-coverage -fPIC -O0 $(SRC) $(TEST_INC) -o vm.$(EXEC)
+	./vm.$(EXEC)	
