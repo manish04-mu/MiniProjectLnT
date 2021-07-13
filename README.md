@@ -15,13 +15,22 @@ Folder             | Description
 `1_Requirements`   | Details regarding requirements and research
 `2_Design`         | Documents specifying design details
 `3_Implementation` | Codes and documentations
-`4_Test_plan`      | Documents with test plans and procedures
+`4_Test_plan and Output`      | Documents with test plans and procedures
+`5_Report1` | Mini Project Report
 
 ## Contributors List and Summary
 
 SF Id. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
 -------|---------|----------------|----------------|---------------|-------------|--------------
-`302942` | Manish Kumar  |  2|     |  | 4|4|     
+`302942` | Manish Kumar  |  4|     |  | 4|4|     
+
+## Features
+| Feature Id | Feature |
+| -----------|---------|
+|F1| To select the Product |
+|F2| To pay using Cash Mode|
+|F3| To Pay using Card Mode |
+|F4| To give Admin Access to update name, price of the product|
 
 ## GitHub Actions
 * Build using Make for CI
@@ -34,11 +43,11 @@ SF Id. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Case
 *  [CodeInspector](https://frontend.code-inspector.com/home)
 *  [Codacy](https://www.codacy.com/)
 
-## Features
-| Feature Id | Feature |
-| -----------|---------|
-|F1| To select the Product |
-|F2| To pay using Cash Mode|
-|F3| To Pay using Card Mode |
-|F4| To give Admin Access to update name, price of the product|
+## Challenges and it's Solution
+| No. | Challenge | Solution
+|-----|-----------|--------
+|1. | Accessing the text files which was in different directory | Given full extension while opening the file
+|2. | Creating a Dynamic Database for product and user information| Created Local Database that can be updated manually by owner  |
+|3. | Error while Building OS independent Makefile | Referred Mini Project Template and did some trail and error to figure out
+
 
