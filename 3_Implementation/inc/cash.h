@@ -15,7 +15,7 @@ int deno_count[7] = {100,100,100,100,100,100,100};
  */
 int cash(int x,int y)
 {
-  int denos[10] = {0,0,0,0,0,0,0,0,0,0};
+  //int denos[10] = {0,0,0,0,0,0,0,0,0,0};
   int prod_val= price[x-1];
   int balance = y-prod_val;
   //int j=0;
@@ -31,7 +31,7 @@ int cash(int x,int y)
     }
     else
     {
-      int i=0,j=0;  
+      int i=0,j=0,denos[10] = {0,0,0,0,0,0,0,0,0,0};  
       while(balance)
       {  
         while(i<7)
