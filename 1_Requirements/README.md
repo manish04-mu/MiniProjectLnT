@@ -113,3 +113,13 @@ LR05   | Updating the Name of the Product. | HR04 | Implemented |
 LR06   | Updating the Price of the Product. | HR04 | Implemented |
 LR07   | Updating the Quantity of the Product. | HR04 | Implemented |
 
+## How To Use
+1. Press '1' to continue as user or Type '5698' as admin password to get admin privileges.
+2. To select the product type the ID next to the Product.
+3. Press '1' to choose Cash as Payment Mode and press '0' to choose Card as Payment Mode
+4. For Card Payment the Static Database can be used ie 
+	Card ID = {2478,5698,3256,7458,1234}
+	Password= {2654,8569,5894,4521,8961}
+5. In Cash Mode user can only type amounts in denomination of 5,10,20,50,100,200,500
+6. In admin Mode the User can select his/her options 
+
