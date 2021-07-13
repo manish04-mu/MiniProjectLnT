@@ -32,5 +32,8 @@
 ## Card Payment
 ![Cash Payment](https://github.com/manish04-mu/MiniProjectLnT/blob/main/4_TestPlan&Output/OutputFiles/CardPayment.png)
 
+## Owner Updating Price
+![Cash Payment](https://github.com/manish04-mu/MiniProjectLnT/blob/main/4_TestPlan&Output/OutputFiles/Owner.png)
+
 ## MakeFile 
 ![Cash Payment](https://github.com/manish04-mu/MiniProjectLnT/blob/main/4_TestPlan&Output/OutputFiles/MakeFileOutput.png)

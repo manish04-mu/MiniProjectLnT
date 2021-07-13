@@ -18,6 +18,7 @@
 
 int main()
 {
+  printf("\n------VENDING MACHINE------\n");
   while(1)
   {
     int user;
