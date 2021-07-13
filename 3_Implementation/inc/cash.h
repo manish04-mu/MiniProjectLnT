@@ -17,26 +17,26 @@ int cash(int x,int y)
 {
   //int denos[10] = {0,0,0,0,0,0,0,0,0,0};
   int prod_val= price[x-1];
-  int balance = y-prod_val;
+  int bal = y-prod_val;
   //int j=0;
   if (item_count[x-1]>0)
   {
-    if (balance<0)
+    if (bal<0)
     {
       printf("\nNot enough money");
     }
-    else if (balance==0)
+    else if (bal==0)
     {
       printf("\n%s is dispensed",food_item[x-1]);
     }
     else
     {
       int i=0,j=0,denos[10] = {0,0,0,0,0,0,0,0,0,0};  
-      while(balance)
+      while(bal)
       {  
         while(i<7)
         {
-          if (balance<denomination[i] && deno_count[i]>0)
+          if (bal<denomination[i] && deno_count[i]>0)
           {
             i++;
           }
@@ -50,7 +50,7 @@ int cash(int x,int y)
         {
           deno_count[i]--;
           denos[j] = denomination[i];
-          balance-=denomination[i];
+          bal-=denomination[i];
           j++;
         }
         else if (i>=7)
@@ -64,7 +64,7 @@ int cash(int x,int y)
         }
       
       }
-      if (balance==0)
+      if (bal==0)
       {
         printf("\n%s is dispensed",food_item[x-1]);
         for (int _=0;_<10;_++)
