@@ -23,3 +23,14 @@
 |  L5|H4|Updating the Name of the Product |Product ID <br> Name of New Product|Update the Name of the Product| SUCCESS |Scenario|
 |  L6|H4|Updating the Price of the Product |Product ID <br> New Price of the Product|Update the Price of the Product| SUCCESS |Scenario|
 |  L7|H4|Updating the Quantity of the Product |Product ID <br> New Quantity of the Product|Update the Quantity of the Product| SUCCESS |Scenario|
+
+# OUTPUT
+
+## Cash Payment
+![Cash Payment](https://github.com/manish04-mu/MiniProjectLnT/blob/main/4_TestPlan&Output/OutputFiles/CashPayment.png)
+
+## Card Payment
+![Cash Payment](https://github.com/manish04-mu/MiniProjectLnT/blob/main/4_TestPlan&Output/OutputFiles/CardPayment.png)
+
+## MakeFile 
+![Cash Payment](https://github.com/manish04-mu/MiniProjectLnT/blob/main/4_TestPlan&Output/OutputFiles/MakeFileOutput.png)
