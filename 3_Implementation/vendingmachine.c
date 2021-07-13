@@ -10,6 +10,7 @@
  */
 #include <stdio.h>
 #include <string.h>
+#include <stdlib.h>
 #include "inc/item.h"
 #include "inc/cash.h"
 #include "inc/card.h"
