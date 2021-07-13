@@ -15,10 +15,8 @@ int deno_count[7] = {100,100,100,100,100,100,100};
  */
 int cash(int x,int y)
 {
-  //int denos[10] = {0,0,0,0,0,0,0,0,0,0};
   int prod_val= price[x-1];
   int bal = y-prod_val;
-  //int j=0;
   if (item_count[x-1]>0)
   {
     if (bal<0)

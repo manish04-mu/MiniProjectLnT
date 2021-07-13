@@ -6,7 +6,7 @@
 
 char food_item[N][20] = {"Frooti","Fanta","ColaCola","MountainDew","Nachos","Lays","Sandwich","Hide'n'Seek","Kitkat","DairyMilk"};
 int price[N] = {10,35,45,40,45,35,50,20,35,40};
-int item_count[10] = {2,10,5,10,10,0,10,0,10,10};
+int item_count[10] = {2,10,5,10,10,10,10,1,10,10};
 /**
  * @brief Display the menu
  * 
@@ -23,9 +23,7 @@ void item_display()
     printf("7   %s      (Rs. %d)    %d\n",food_item[6],price[6],item_count[6]);
     printf("8   %s   (Rs. %d)    %d\n",food_item[7],price[7],item_count[7]);
     printf("9   %s        (Rs. %d)    %d\n",food_item[8],price[8],item_count[8]);
-    printf("10  %s     (Rs. %d)    %d\n",food_item[9],price[9],item_count[9]);
-    
-    
+    printf("10  %s     (Rs. %d)    %d\n",food_item[9],price[9],item_count[9]);  
 }
 
 /**
