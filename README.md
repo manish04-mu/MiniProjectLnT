@@ -22,10 +22,8 @@ Folder             | Description
 
 SF Id. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
 -------|---------|----------------|----------------|---------------|-------------|--------------
-`302942` | Manish Kumar  |  4|     |  | 4|4|     
+`302942` | Manish Kumar  |  4|   1  | 1 | 4|4|     
 
-## Working Project
-![VM](https://github.com/manish04-mu/MiniProjectLnT/blob/main/4_TestPlan&Output/OutputFiles/OutputVideo.mp4)
 
 ## Features
 | Feature Id | Feature |
